@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 ```
 
-<img src="Images/Header.png"/>
+<img src="images/header.png"/>
 
 ```cs
-class Lluckymou : Person
+class Llucmou : Person
 {
     public static string Name
     {
@@ -31,7 +31,7 @@ class Lluckymou : Person
 ## Experience
 ### `Unity` developer
 
-<img align="left" width="150" height="150" src="Images/sBotics.png">
+<img align="left" width="150" height="150" src="images/sBotics.png">
 
 I've been working as the lead developer of [sBotics](https://github.com/sBotics), a [Rescue Line](https://junior.robocup.org/rcj-rescue-line/) educational robotics simulator used by the [Brazilian Robotics Olympiad](http://www.obr.org.br) and [RoboCupJr Worldwide 2021](https://2021.robocup.org), boasting thousands of users worldwide.
 ```cs
@@ -50,7 +50,7 @@ I've been working as the lead developer of [sBotics](https://github.com/sBotics)
 
 ### `Ruby on Rails` *full-stack* developer
 
-<img align="right" width="150" height="150" src="Images/Ruby.png">
+<img align="right" width="150" height="150" src="images/ruby.png">
 
 I worked for over a year at a local company serving start-ups and other small businesses with websites and web systems using *jQuery*, *Bootstrap*, *MongoDB*, *Git*, and obviously vanilla *JS* and *CSS*. 
 ```cs
@@ -70,7 +70,7 @@ I worked for over a year at a local company serving start-ups and other small bu
 ### `Timeline` of skills
 
 <p align="center">
-  <img width="460" src="Images/AboutMe.png">
+  <img height="400" src="images/aboutMe.png">
 </p>
 
 ```cs
@@ -82,7 +82,7 @@ I worked for over a year at a local company serving start-ups and other small bu
             self-paced learner with knowledge in Web and
             Game development.
 
-            Languages: English (C2) and Portuguese (native).
+            Languages: English (C2), French (A2) and Portuguese (native).
         ";
     }
 ```
@@ -93,4 +93,6 @@ I worked for over a year at a local company serving start-ups and other small bu
 }
 ```
 
-Want to *use* this *'class'*? Contact-me on [Email](mailto:llucmou@gmail.com) or [LinkedIn](https://www.linkedin.com/in/lucas-moura-do-nascimento/).
+You can read more about me interactively **[here](https://lluckymou.github.io)**.
+
+Want to *import* this *'class'* in your project? Contact-me on **[Email](mailto:llucmou@gmail.com)** or **[LinkedIn](https://www.linkedin.com/in/lucas-moura-do-nascimento/)**.
