@@ -15,7 +15,191 @@
         <link href="styles/main.css" rel="stylesheet"/>
     </head>
     <body>
+        <section class="language">
+            <div class="container text-end">
+                <span><b>English</b></span>
+                <span><a href="#">Português</a></span>
+                <span class="text-decoration-line-through">Français</span>
+            </div>
+        </section>
+
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center user-select-none">
+                <a href="index.html" class="mb-md-0 me-md-auto logo-outer">
+                    <img src="images/favicon.png">
+                    <span class="d-inline-block ms-2"><strong>Lucas</strong> Nascimento</span>
+                </a>
+                <ul class="nav nav-pills align-items-center">
+                    <li>
+                        <span class="nav-link">
+                            <a href="#experience" class="ll-blue">Experience</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="nav-link">
+                            <a href="#timeline" class="ll-blue">Timeline</a>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#index" class="nav-link btn ll-btn ll-btn-blue">Index</a>
+                    </li>
+                </ul>
+            </header>
+
+            <div class="ll-bg-yellow ll-radius">
+                <div class="row flex-row-reverse">
+                    <div class="jumbotron-banner position-relative col-12 col-lg-6">
+                        <img src="images/banner.png">
+                    </div>
+                    <div class="jumbotron-banner-text col-12 col-lg-6">
+                        <span>About Me</span>
+                        <h1 class="display-5 fw-card mt-4 mb-5">Passionate Full-Stack Web and Game Developer striving for perfection</h1>
+                        <a href="#skills" class="btn btn-lg ll-btn-white fw-bold ll-btn">View Skills</a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-end text-muted ll-text-small">The photo above changes depending on the time of year</p>
+
+            <section class="ll-section" id="index">
+                <h1 class="ll-text-section my-3">Index</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#aspirations">
+                                <span class="title">Aspirations</span>
+                                <p>Personal and Career-wise Aspirations.</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#experience">
+                                <span class="title">Professional Experience</span>
+                                <p>Current and Previous Professional Experience.</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#skills">
+                                <span class="title">Skills</span>
+                                <p>All my skills in all fields.</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#timeline">
+                                <span class="title">Timeline</span>
+                                <p>Timeline of achievements and past studies.</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#projects">
+                                <span class="title">Projects</span>
+                                <p>Past or Current Projects I've been envolved with.</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#next-steps">
+                                <span class="title">Next Steps</span>
+                                <p>My plans for the near future.</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#languages">
+                                <span class="title">Languages</span>
+                                <p>Languages I speak (for programming languages view my Skills)</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" href="#contact">
+                                <span class="title">Contact Me</span>
+                                <p>Username for social networks</p>
+                            </a>
+                        </div>
+                        <div class="topic-card col-12 col-md-6 col-lg-4">
+                            <a class="d-block" target="_blank" href="#">
+                                <span class="title">Résumé (PDF)</span>
+                                <p>Download a copy of my Résumé in a printable format.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </section>
+
+                <section class="ll-bg-light-blue ll-radius ll-section-margin-top ll-double-section-margin-bottom" id="aspirations">
+                    <div class="jumbotron text-justify">
+                        <h1 class="display-5 fw-card mb-4 ">Aspirations</h1>
+                        <p>
+                            In a world ever-increasingly defined by quantity over quality, 
+                            I aspire to create meaningful software that can inspire others and promote the well-being of society. 
+                            As an aspiring Software Engineer, I understand and promote the idea of prototyping and analysing ideas
+                            before they're turned into code, as it leads to better written and performing programs with greater maintainability.
+                            For me, rewriting software is never <i>not</i> an option: If something isn't working, I at least consider 
+                            rewriting it completely, making it more future-proof and expandable (you can only take the same car to the mechanic
+                            so many times before it justifies buying a new car).
+                        </p>
+                        <p>
+                            In the information age, it's easy to come across bad pieces of advice, and developers need to
+                            be able to separate what works from what doesn't (not all StackOverflow posts will be able to resolve your
+                            problems, especially when your problem is derived from a lack of understanding of how the environment
+                            your programing in works). To me, being a developer isn't about being able to program in a specific language, but in a 
+                            specific paradigm: Coding in ASP.Net won't make one a better Spring Boot programmer,
+                            but understanding how the Model-View-Controller design pattern works makes it easier to learn the 
+                            specific syntax of what will be tackled (that being not only the aforementioned languages but many others), 
+                            usually taking a couple of days. However, developers usually seem
+                            eager to brag about the number of different programming languages they have used in the past, rather than focus 
+                            on the different <i>types of projects</i> they have worked on before, which is what usually forces them to think outside
+                            the box.
+                        </p>
+                        <p>
+                            It's not uncommon to find developers stuck for several days in completely avoidable situations if the software had been better
+                            designed; And this is where the prototyping (Software Engineering) comes in. Time "lost" in
+                            prototyping, modelling, and designing the software is often translated into time "gained" in its developing stage, and although hard
+                            for some to comprehend, that is exactly my <i>modus operandi</i> (way of doing things).
+                        </p>
+                    </div>
+                </section>
+        </div>
+
+        <section class="ll-bg-light-yellow ll-section" id="experience">
+            <div class="container">
+                <h1 class="ll-text-section my-3">Experience</h1>
+            </div>
+        </section>
+
+        <section class="ll-bg-dark-blue ll-text-bg ll-section" id="skills">
+            <div class="container">
+                <h1 class="ll-text-section my-3">Skills</h1>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="ll-section" id="timeline">
+                <h1 class="ll-text-section my-3">Timeline</h1>
+            </section>
+
+            <section class="ll-bg-light-blue ll-radius ll-section-margin-top ll-double-section-margin-bottom" id="projects">
+                <div class="jumbotron">
+                    <h1 class="display-5 fw-card mb-4">Projects</h1>
+                    Lorem Ipsum
+                </div>
+            </section>
+
+            <section class="ll-bg-light-blue ll-radius ll-section-margin-top ll-double-section-margin-bottom" id="next-steps">
+                <div class="jumbotron">
+                    <h1 class="display-5 fw-card mb-4">Next Steps</h1>
+                    Lorem Ipsum
+                </div>
+            </section>
+        </div>
         
+        <section class="ll-bg-light-grey ll-text-bg ll-section" id="languages">
+            <div class="container">
+                <h1 class="ll-text-section my-3">Languages</h1>
+            </div>
+        </section>
+
+        <section class="ll-bg-grey ll-text-bg ll-section" id="contact">
+            <div class="container">
+                Contact/Footer
+            </div>
+        </section>
 
         <!-- Scripts -->
         <script src="scripts/bootstrap.bundle.min.js"></script>

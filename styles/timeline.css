@@ -1,14 +1,10 @@
-/* Global variables */
 :root {
     /* colours */
-    --green: #77c443;
-    --blue: #3078d9;
-    --grey: #333;
-    --background: #f4f4f4;
-    --white: #fff;
-
-    /* sizes */
-    --primary-size: 56px;
+    --tl-green: #77c443;
+    --tl-blue: #3078d9;
+    --tl-grey: #333;
+    --tl-background: #f4f4f4;
+    --tl-white: #fff;
 }
 
 /* XS */
@@ -23,8 +19,8 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     position: absolute;
-    background-color: var(--grey);
-    color: var(--white);
+    background-color: var(--tl-grey);
+    color: var(--tl-white);
     top: 0;
     left: 0;
     width: 100%;
@@ -47,14 +43,13 @@
 .timeline {
     position: relative;
     margin: 25px;
-    padding: var(--primary-size) 0;
 }
 
 .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: var(--blue);
+    background-color: var(--tl-blue);
     top: 0;
     bottom: 0;
     left: 31px;
@@ -74,8 +69,8 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: var(--background);
-    border: 4px solid var(--grey);
+    background-color: var(--tl-background);
+    border: 4px solid var(--tl-grey);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -113,7 +108,7 @@
 
 .timeline-content {
     padding: 85px 25px 85px 25px;
-    background-color: var(--background);
+    background-color: var(--tl-background);
     position: relative;
     border-radius: 15px;
     text-align: justify;
@@ -150,8 +145,8 @@
     font-weight: 900;
     bottom: 15px;
     z-index: 1;
-    color: var(--white);
-    filter: drop-shadow(0 0 2px var(--grey));
+    color: var(--tl-white);
+    filter: drop-shadow(0 0 2px var(--tl-grey));
 }
 
 .locale {
@@ -160,9 +155,9 @@
 
 .timeline-card::before {
     left: 60px;
-    border: medium solid var(--grey);
+    border: medium solid var(--tl-grey);
     border-width: 10px 10px 10px 0;
-    border-color: transparent var(--grey) transparent transparent;
+    border-color: transparent var(--tl-grey) transparent transparent;
 }
 
 /* SM */
@@ -194,9 +189,9 @@
     .left::before {
         right: 30px;
         left: unset;
-        border: medium solid var(--grey);
+        border: medium solid var(--tl-grey);
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent var(--grey);
+        border-color: transparent transparent transparent var(--tl-grey);
     }
 
     .right::before {
