@@ -104,7 +104,6 @@ section.ll-double-section-margin-bottom {
 .topic-card .title {
     display: inline-block;
     width: 100%;
-    font-weight: 500;
     font-size: var(--ll-txt-header-title);
     color: var(--ll-blue);
 }
@@ -238,6 +237,14 @@ a.ll-blue {
     font-size: var(--ll-txt-header);
 }
 
+.jumbotron-experience {
+    padding: var(--ll-small-mar);
+}
+
+.jumbotron-experience h1 {
+    font-size: var(--ll-txt-header-title);
+}
+
 .jumbotron-banner-text, .jumbotron {
     padding: var(--ll-medium-mar);
 }
@@ -246,12 +253,20 @@ a.ll-blue {
     font-size: var(--ll-txt-large);
 }
 
+.cursor-help {
+    cursor: help !important;
+}
+
 .text-justify {
     text-align: justify !important;
 }
 
 .ll-subheader {
     font-weight: 425;
+}
+
+.ll-height-header-text {
+    height: var(--ll-txt-header);
 }
 
 /* SM */
@@ -301,6 +316,10 @@ a.ll-blue {
 
     .jumbotron-banner-text h1 {
         font-size: var(--ll-txt-huge);
+    }
+
+    .jumbotron-experience h1 {
+        font-size: var(--ll-txt-medium);
     }
 }
 
