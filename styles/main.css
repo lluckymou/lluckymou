@@ -134,6 +134,10 @@ header .nav {
     margin-top: var(--ll-tiny-mar);
 }
 
+.skill {
+    margin: var(--ll-small-mar) 0;
+}
+
 .logo-outer {
     font-size: var(--ll-txt-medium);
 }
@@ -253,6 +257,10 @@ a.ll-blue {
     font-size: var(--ll-txt-large);
 }
 
+.ll-subsection {
+    font-size: var(--ll-txt-medium);
+}
+
 .cursor-help {
     cursor: help !important;
 }
@@ -265,8 +273,24 @@ a.ll-blue {
     font-weight: 425;
 }
 
+.skill-container {
+    margin-left: var(--ll-small-mar);
+}
+
+.main-skill {
+    height: 100px;
+}
+
+.sub-skill {
+    height: 76px;
+}
+
 .ll-height-header-text {
     height: var(--ll-txt-header);
+}
+
+.skill-title {
+    font-size: var(--ll-txt-header-title);
 }
 
 /* SM */
@@ -320,6 +344,30 @@ a.ll-blue {
 
     .jumbotron-experience h1 {
         font-size: var(--ll-txt-medium);
+    }
+
+    .ll-subsection {
+        font-size: var(--ll-txt-large);
+    }
+
+    .skill-container {
+        margin-left: var(--ll-topic-mar);
+    }
+
+    .main-skill {
+        height: 125px;
+    }
+    
+    .sub-skill {
+        height: 90px;
+    }
+    
+    .skill-title {
+        font-size: var(--ll-txt-medium);
+    }
+
+    .skill {
+        margin: var(--ll-topic-mar) 0;
     }
 }
 
