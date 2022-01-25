@@ -269,199 +269,256 @@
 
         <section class="ll-bg-dark-blue ll-text-bg ll-section" id="skills">
             <div class="container">
-                <h1 class="ll-text-section my-3">Skills</h1>
-                <h1 class="fw-card ll-subsection">Front-end Development</h1>
-                <p>
-                    After partaking in numerous (personal and work-related) <a class="text-white" href="#projects">projects</a> and building
-                    several websites, I've acquired experience in stock CSS/JS as well as more than a few frameworks that speed up develpment.
-                </p>
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/css.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">CSS</h1>
+                <h1 class="ll-text-section mt-3 mb-2">Skills</h1>
+                <p class="mb-4">Click in a category to expand its contents.</p>
+                <div class="accordion ll-text-primary mb-5" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button ll-accordion-padding collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <h1 class="fw-card m-0 ll-skill-title ll-text-primary">Front-end Development</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    After partaking in numerous (personal and work-related) <a class="ll-text-primary" href="#projects">projects</a> and building
+                                    several websites, I've acquired experience in stock CSS/JS as well as more than a few frameworks that speed up develpment.
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/css.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">CSS</h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/javascript.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Javascript</h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/bootstrap.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Bootstrap</p>
+                                            <p class="mb-1">4.x and 5+.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/jquery.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">jQuery</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/javascript.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Javascript</h1>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button ll-accordion-padding collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h1 class="fw-card m-0 ll-skill-title ll-text-primary">Back-end Development</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    As a full-Stack Ruby on Rails developer and participating in many courses dedicated to back-end development, I'm able to call myself
+                                    proficient in the technologies listed below.
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/mvc.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Model-View-Controller</h1>
+                                            <p class="mb-1">ASP.Net (C#); Spring Boot; Ruby on Rails.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/django.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Django</p>
+                                            <p class="mb-1">(Python).</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/sql.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">SQL</p>
+                                            <p class="mb-1">MySQL; PostgreSQL.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/bootstrap.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Bootstrap</p>
-                            <p class="mb-1">4.x and 5+.</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button ll-accordion-padding collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h1 class="fw-card m-0 ll-skill-title ll-text-primary">Game Development</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    The skills listed below come from my experience as being the creator and head developer of <span class="text-decoration-underline"><a class="ll-text-primary" href="#sbotics">sBotics</a></span>, an Educational Robotics simulator further described in the <span class="text-decoration-underline"><a class="ll-text-primary" href="#projects">projects</a></span> section, as well as pursuing a minor in Game Development, taking many courses/classes on this field of study.
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/unity-scripting.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Unity Scripting</h1>
+                                            <p class="mb-1">C#.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/unity-ui.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Unity UI</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/jquery.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">jQuery</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button ll-accordion-padding collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h1 class="fw-card m-0 ll-skill-title ll-text-primary">Other Technology-related Skills</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Not all skills can be neatly categorised, especially in a field as diverse as "tech". The skills listed below are those in which I couldn't fit into the other tech-related categories.
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/diagramming.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Diagramming</h1>
+                                            <p class="mb-1">UML (Use case, Class, Domain, Sequence, etc.);</p>
+                                            <p class="mb-1">Astah; Diagrams.net (former <i>draw.io</i>).</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/educational-robotics.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Educational Robotics</h1>
+                                            <p class="mb-1">See <span class="text-decoration-underline"><a class="ll-text-primary" href="#articles">Publications</a></span>.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/linux.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Linux</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/git.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Git</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/c-cpp.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">C / C++</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/maintenance.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Computer Maintenance</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button ll-accordion-padding collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <h1 class="fw-card m-0 ll-skill-title ll-text-primary">Design Tools</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    The Web Design courses in my 4-year Certificate Program in Web Development trained me to utilise many different design tools, in addition to teaching important knowledge in the field of design (such as Colour Theory).
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/photoshop.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Adobe Photoshop</h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/ui.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">UI Design</h1>
+                                            <p class="mb-1">Figma; Adobe XD.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/video-editing.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Video Editing</p>
+                                            <p class="mb-1">Adobe Premiere; Shotcut.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/illustrator.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Adobe Illustrator</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button ll-accordion-padding collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <h1 class="fw-card m-0 ll-skill-title ll-text-primary">Other</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    As a bilingual English-Portuguese speaker and having assembled and served as the head developer of the team behind sBotics, a tool used by thousands of users<a class="align-top ll-text-primary" style="font-size: 10px;" target="_blank" href="http://www.obr.org.br/">[Source <img class="ll-height-header-text" src="images/gh-pages/brazil.png">]</a>, some skills unrelated to technology also deserve to be highlighted.
+                                </p>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/english.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">English</h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius main-skill" src="images/gh-pages/skills/team-management.png"/>
+                                        <div class="skill-container">
+                                            <h1 class="ll-subsection">Team Management</h1>
+                                        </div>
+                                    </div> 
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/communication.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Communication</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center ll-skill-margin">
+                                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/conflict-resolution.png"/>
+                                        <div class="skill-container">
+                                            <p class="fw-card skill-title mb-1">Conflict Resolution</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <hr class="skills-separator"/>
-                <h1 class="fw-card ll-subsection">Back-end Development</h1>
-                <p>
-                    As a full-Stack Ruby on Rails developer and participating in many courses dedicated to back-end development, I'm able to call myself
-                    proficient in the technologies listed below.
-                </p>
-                <div class="row">
-                    <div class="col-12 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/mvc.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Model-View-Controller</h1>
-                            <p class="mb-1">ASP.Net (C#); Spring Boot; Ruby on Rails.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/django.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Django</p>
-                            <p class="mb-1">(Python).</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/sql.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">SQL</p>
-                            <p class="mb-1">MySQL; PostgreSQL.</p>
-                        </div>
-                    </div>
-                </div>
-                <hr class="skills-separator"/>
-                <h1 class="fw-card ll-subsection">Game Development</h1>
-                <p>
-                    The skills listed below come from my experience as being the creator and head developer of <span class="text-decoration-underline"><a class="text-white" href="#sbotics">sBotics</a></span>, an Educational Robotics simulator further described in the <span class="text-decoration-underline"><a class="text-white" href="#projects">projects</a></span> section, as well as pursuing a minor in Game Development, taking many courses/classes on this field of study.
-                </p>
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/unity-scripting.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Unity Scripting</h1>
-                            <p class="mb-1">C#.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/unity-ui.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Unity UI</h1>
-                        </div>
-                    </div>
-                </div>
-                <hr class="skills-separator"/>
-                <h1 class="fw-card ll-subsection">Other Technology-related Skills</h1>
-                <p>
-                    Not all skills can be neatly categorised, especially in a field as diverse as "tech". The skills listed below are those in which I couldn't fit into the other tech-related categories.
-                </p>
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/diagramming.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Diagramming</h1>
-                            <p class="mb-1">UML (Use case, Class, Domain, Sequence, etc.);</p>
-                            <p class="mb-1">Astah; Diagrams.net (former <i>draw.io</i>).</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/educational-robotics.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Educational Robotics</h1>
-                            <p class="mb-1">See <span class="text-decoration-underline"><a class="text-white" href="#articles">Publications</a></span>.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/linux.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Linux</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/git.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Git</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/c-cpp.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">C / C++</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/maintenance.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Computer Maintenance</p>
-                        </div>
-                    </div>
-                </div>
-                <hr class="skills-separator"/>
-                <h1 class="fw-card ll-subsection">Design Tools</h1>
-                <p>
-                    The Web Design courses in my 4-year Certificate Program in Web Development trained me to utilise many different design tools, in addition to teaching important knowledge in the field of design (such as Colour Theory).
-                </p>
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/photoshop.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Adobe Photoshop</h1>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/ui.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">UI Design</h1>
-                            <p class="mb-1">Figma; Adobe XD.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/video-editing.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Video Editing</p>
-                            <p class="mb-1">Adobe Premiere; Shotcut.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/illustrator.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Adobe Illustrator</p>
-                        </div>
-                    </div>
-                </div>
-                <hr class="skills-separator"/>
-                <h1 class="fw-card ll-subsection">Other</h1>
-                <p>
-                    As a bilingual English-Portuguese speaker and having assembled and served as the head developer of the team behind sBotics, a tool used by thousands of users<a class="align-top text-white" style="font-size: 10px;" target="_blank" href="http://www.obr.org.br/">[Source <img class="ll-height-header-text" src="images/gh-pages/brazil.png">]</a>, some skills unrelated to technology also deserve to be highlighted.
-                </p>
-                <div class="row">
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/english.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">English</h1>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius main-skill" src="images/gh-pages/skills/team-management.png"/>
-                        <div class="skill-container">
-                            <h1 class="ll-subsection">Team Management</h1>
-                        </div>
-                    </div> 
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/communication.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Communication</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-flex align-items-center ll-tiny-margin">
-                        <img class="ll-radius sub-skill" src="images/gh-pages/skills/conflict-resolution.png"/>
-                        <div class="skill-container">
-                            <p class="fw-card skill-title mb-1">Conflict Resolution</p>
-                        </div>
-                    </div>
-                </div>
-                <hr class="skills-separator"/>
             </div>
         </section>
 

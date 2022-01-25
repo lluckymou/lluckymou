@@ -67,12 +67,28 @@ a {
     text-decoration: none;
 }
 
-.ll-section {
-    padding: var(--ll-large-mar) 0;
+.accordion-item:first-of-type {
+    border-top-left-radius: var(--ll-radius);
+    border-top-right-radius: var(--ll-radius);
 }
 
-.skills-separator {
-    margin: var(--ll-medium-mar) 0 calc(var(--ll-medium-mar) + var(--ll-tiny-mar)) 0;
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(var(--ll-radius) - 1px);
+    border-top-right-radius: calc(var(--ll-radius) - 1px);
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: calc(var(--ll-radius) - 1px);
+    border-bottom-left-radius: calc(var(--ll-radius) - 1px);
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: var(--ll-radius);
+    border-bottom-left-radius: var(--ll-radius);
+}
+
+.ll-section {
+    padding: var(--ll-large-mar) 0;
 }
 
 .ll-section-margin-top {
@@ -140,6 +156,10 @@ header .nav {
     margin-top: var(--ll-tiny-mar);
 }
 
+.ll-skill-margin {
+    margin: var(--ll-tiny-mar) 0;
+}
+
 .ll-tiny-margin {
     margin: var(--ll-tiny-mar) 0;
 }
@@ -171,7 +191,7 @@ header .nav {
 }
 
 .ll-radius {
-    border-radius: var(--ll-radius);
+    border-radius: var(--ll-radius) !important;
 }
 
 .ll-bg-light-yellow {
@@ -204,6 +224,10 @@ header .nav {
 
 .ll-bg-blue {
     background-color: var(--ll-blue);
+}
+
+.ll-text-primary {
+    color: var(--ll-primary);
 }
 
 .ll-text-bg {
@@ -275,6 +299,10 @@ a.ll-blue {
     font-size: var(--ll-txt-medium);
 }
 
+.ll-skill-title {
+    font-size: var(--ll-txt-header-title);
+}
+
 .cursor-help {
     cursor: help !important;
 }
@@ -305,6 +333,19 @@ a.ll-blue {
 
 .skill-title {
     font-size: var(--ll-txt-header-title);
+}
+
+.accordion-button:hover {
+    background-color: var(--ll-background-light-blue);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--ll-background-blue);
+}
+
+.accordion-body {
+    padding: var(--ll-small-mar);
+    background: var(--ll-background-light-blue);
 }
 
 /* SM */
@@ -380,8 +421,20 @@ a.ll-blue {
         font-size: var(--ll-txt-medium);
     }
 
-    .skills-separator {
-        margin: var(--ll-large-mar) 0 calc(var(--ll-large-mar) + var(--ll-tiny-mar)) 0;
+    .ll-accordion-padding {
+        padding: var(--ll-topic-mar);
+    }
+
+    .ll-skill-title {
+        font-size: var(--ll-txt-medium);
+    }
+
+    .accordion-body {
+        padding: var(--ll-topic-mar) var(--ll-medium-mar);
+    }
+
+    .ll-skill-margin {
+        margin: var(--ll-small-mar) 0;
     }
 }
 
