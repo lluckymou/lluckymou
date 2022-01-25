@@ -139,6 +139,10 @@ a {
     text-decoration: underline;
 }
 
+.ll-padding-timeline {
+    padding: var(--ll-huge-mar) 0;
+}
+
 .ll-padding-small-tiny {
     padding:  var(--ll-tiny-mar) var(--ll-small-mar) !important;
 }
@@ -261,8 +265,8 @@ a.ll-blue {
     font-size: var(--ll-txt-large);
 }
 
-.fw-card {
-    font-weight: 500;
+.ll-fw-600 {
+    font-weight: 600;
 }
 
 .container {
