@@ -440,6 +440,10 @@ a.ll-blue {
     .ll-skill-margin {
         margin: var(--ll-small-mar) 0;
     }
+    
+    .ll-section {
+        padding: var(--ll-huge-mar) 0;
+    }
 }
 
 /* XL */

@@ -1,21 +1,4 @@
 /* XS */
-.timeline-card .header h1 {
-    margin: 0;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 35px;
-}
-
-.timeline-card .header {
-    position: absolute;
-    background-color: var(--ll-light-grey);
-    color: var(--ll-background);
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 25px;
-}
-
 .main-picture img {
     margin: 25px;
     width: calc(100% - 50px);
@@ -36,7 +19,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: var(--ll-blue);
+    background-color: var(--ll-secondary);
     top: 0;
     bottom: 0;
     left: 31px;
@@ -94,8 +77,8 @@
 }
 
 .timeline-content {
-    padding: 85px 25px 85px 25px;
-    background-color: var(--ll-background-light-blue);
+    padding: var(--ll-topic-mar) var(--ll-topic-mar) calc(var(--ll-huge-mar) + var(--ll-small-mar)) var(--ll-topic-mar);
+    background-color: var(--ll-background-yellow);
     position: relative;
     text-align: justify;
     min-height: 200px;
@@ -103,14 +86,7 @@
 }
 
 .timeline-content h1 {
-    font-weight: 450;
-    font-size: 22pt;
-    margin: 15px 0;
-}
-
-.timeline-content p {
-    margin: 10px 0;
-    font-size: 13pt;
+    font-size: var(--ll-txt-medium);
 }
 
 .timeline-locale-image {
@@ -118,19 +94,13 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    opacity: 0.4;
-}
-
-.small {
-    display: block;
-    font-size: 11pt;
 }
 
 .timeline-card::before {
     left: 60px;
-    border: medium solid var(--ll-light-grey);
+    border: medium solid var(--ll-background-yellow);
     border-width: 10px 10px 10px 0;
-    border-color: transparent var(--ll-light-grey) transparent transparent;
+    border-color: transparent var(--ll-background-yellow) transparent transparent;
 }
 
 /* SM */
@@ -164,9 +134,9 @@
     .left::before {
         right: 30px;
         left: unset;
-        border: medium solid var(--ll-light-grey);
+        border: medium solid var(--ll-background-yellow);
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent var(--ll-light-grey);
+        border-color: transparent transparent transparent var(--ll-background-yellow);
     }
 
     .right::before {
