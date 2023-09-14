@@ -20,20 +20,37 @@ class Llucmou : Person
 
     static Dictionary<string, string[]> experiences = new Dictionary<string, string[]>()
     {
-        {"FrontEnd" , new string[] {"JS", "jQuery", "CSS", "Boostrap"}},
-        {"BackEnd" , new string[] {"Ruby on Rails", "JS (Node.js)", "Java (Spring boot)", "Python (Django)"}},
-        {"Tools" , new string[] {"Unity", "Linux", "Git", "Photoshop", "VSCode", "Heroku"}},
+        {"FrontEnd" , new string[] {"JS", "jQuery", "Alpine.js", "CSS", "Boostrap", "Tailwind"}},
+        {"BackEnd" , new string[] {"Ruby on Rails", "JS (Node.js)", "Java (Spring boot)", "Python (Django)", "Laravel"}},
+        {"Tools" , new string[] {"Unity", "Linux", "Git", "Photoshop", "Astah", "Heroku"}},
     };
 
     public static override string[] Experience(string type) => experiences[type];
 ```
 
 ## Experience
+### Software Engineer
+
+<img align="right" width="150" height="150" src="images/rcb.png">
+
+Since November 2022, I've been working as a Frontend Engineer and Software Engineer for Robocup Brasil, designing, testing, implementing and maintaining their event-organizing platform "Sistema Olimpo".
+```cs
+    /*
+     * public function start_date() {
+     *   return strtotime('2022-11-01');
+     * }
+     *
+     * public function end_date() {
+     *   return Carbon::now();
+     * }
+     */
+```
+
 ### `Unity` developer
 
 <img align="left" width="150" height="150" src="images/sBotics.png">
 
-I've been working as the lead developer of [sBotics](https://github.com/sBotics), a [Rescue Line](https://junior.robocup.org/rcj-rescue-line/) educational robotics simulator used by the [Brazilian Robotics Olympiad](http://www.obr.org.br) and [RoboCupJr Worldwide 2021](https://2021.robocup.org), boasting thousands of users worldwide.
+I'm the head developer of [sBotics](https://github.com/sBotics), a [Rescue Line](https://junior.robocup.org/rcj-rescue-line/) educational robotics simulator used by the [Brazilian Robotics Olympiad](http://www.obr.org.br) and [RoboCupJr Worldwide 2021](https://2021.robocup.org), boasting thousands of users across the globe.
 ```cs
     public static DateTime StartDate
     {
@@ -52,7 +69,7 @@ I've been working as the lead developer of [sBotics](https://github.com/sBotics)
 
 <img align="right" width="150" height="150" src="images/ruby.png">
 
-I worked for over a year at a local company serving start-ups and other small businesses with websites and web systems using *jQuery*, *Bootstrap*, *MongoDB*, *Git*, and obviously vanilla *JS* and *CSS*. 
+I worked for over a year at a local agency serving start-ups and other small businesses websites and web systems using *jQuery*, *Bootstrap*, *MongoDB*, *Git*, and obviously vanilla *JS* and *CSS*. 
 ```cs
     /*
      * def start_date
