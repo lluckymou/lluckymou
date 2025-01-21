@@ -1,3 +1,8 @@
+#### Unfamiliar with tech or C#? You can access my portfolio **[here](https://lluckymou.github.io)**.
+
+
+## <img width="18" src="images/vs-cs.png"/>&nbsp; **Llucmou.cs**
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -95,21 +100,14 @@ I worked for over a year at a local agency serving start-ups and other small bus
     {
         get =>
         @"
-            Tech-enthusiast, geography nerd, passionate
-            self-paced learner with knowledge in Web and
-            Game development.
+            Tech enthusiast, detail-oriented, communicator, and enthusiastic learner,
+            always seeking new challenges and opportunities to grow and collaborate with others.
 
-            Languages: English (C2), French (A2) and Portuguese (native).
+            Languages: English (C2), French (A2), Portuguese (Native), and Spanish (B1).
         ";
     }
 ```
 
 ---
 
-```cs
-}
-```
-
-You can read more about me interactively **[here](https://lluckymou.github.io)**.
-
-Want to *import* this *'class'* in your project? Contact-me on **[Email](mailto:llucmou@gmail.com)** or **[LinkedIn](https://www.linkedin.com/in/lucas-moura-do-nascimento/)**.
+Want to *import* this *'class'* into your project? Reach out on **[Email](mailto:llucmou@gmail.com)** or **[LinkedIn](https://www.linkedin.com/in/llucmou/)**.
