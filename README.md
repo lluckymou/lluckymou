@@ -87,7 +87,7 @@ I worked for over a year at a local agency serving start-ups and other small bus
 ### `Timeline` of skills
 
 <p align="center">
-  <img height="400" src="images/aboutMe.png">
+  <img height="600" src="images/about_me.png">
 </p>
 
 ```cs
